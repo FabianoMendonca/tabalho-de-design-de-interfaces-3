@@ -1,5 +1,6 @@
 html{
     width: 100vw;
+    box-sizing: border-box;
 }
 :root{
     --logo-color: #bd00a5;
@@ -12,10 +13,14 @@ html{
 }
 .navbar{
     width: 100%;
+    background-color: #FFFFFF;
     -webkit-box-shadow: 0px 3px 24px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 3px 24px -7px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 24px -7px rgba(0,0,0,0.75);
     /* position: fixed; */
+}
+.section-modal{
+    margin-top: 120px;
 }
 
 .navbar-brand{
@@ -99,4 +104,8 @@ html{
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
+}
+.carousel-inner > .carousel-item > img {
+    min-width: 100%;
+    height: 500px;
 }

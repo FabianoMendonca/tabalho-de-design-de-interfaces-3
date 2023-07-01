@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Bootstrap Page</title>
-</head>
-<body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg ">
+  </head>
+  <body>
+    <div class="container-sm">
+      <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><h1>Cia da Casa</h1></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -24,164 +40,387 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#aboutUs">Sobre nós</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#section-cards-id">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#contactUs">Entre em contato</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    <div class="section-cards">
+      <div
+        id="aboutUs"
+        class="container-sm"
+        style="margin-top: 120px; padding-top: 2vh"
+      >
+        <h1><strong>Quem somos nós ?</strong></h1>
+        <p>
+          Estamos aqui para tornar realidade o seu sonho de ter a casa dos seus
+          sonhos. Com anos de experiência no setor imobiliário e um compromisso
+          inabalável com a satisfação dos nossos clientes, estamos prontos para
+          ajudá-lo(a) a encontrar o financiamento ideal para adquirir a
+          <strong>casa perfeita</strong> para você e sua família. Sabemos que a
+          compra de uma casa é uma das decisões mais importantes e
+          significativas na vida de uma pessoa. Compreendemos também que cada
+          indivíduo tem necessidades únicas, e é por isso que oferecemos
+          soluções personalizadas para atender às suas circunstâncias
+          específicas. Não importa se você é um comprador de primeira viagem, um
+          investidor imobiliário experiente ou está apenas buscando uma nova
+          casa para a sua família, estamos aqui para simplificar o processo de
+          financiamento. Nosso objetivo é ajudá-lo(a) a realizar seu sonho de
+          ter uma casa própria de maneira acessível e sem complicações. Então,
+          deixe-nos cuidar do lado financeiro enquanto você concentra sua
+          energia em encontrar a casa dos seus sonhos. Entre em contato conosco
+          hoje mesmo e descubra como podemos transformar seu desejo de ter uma
+          casa em realidade. Estamos ansiosos para ajudá-lo(a) a alcançar essa
+          conquista significativa em sua vida.
+        </p>
+      </div>
+      <h1 style="margin-top: 50px" id="section-cards-id">
+        Conheça nossas casas disponiveis
+      </h1>
+      <div class="section-cards">
         <div class="card">
-          <img src="assets/img01.jpg" class="card-img-top" alt="...">
+          <a href="#exampleModal1" data-bs-toggle="modal">
+            <img src="assets/img01.jpg" class="card-img-top" alt="..." />
+          </a>
           <div class="card-body">
-            <h5 class="card-title">Apartamento no Cassino - Rio Grande </h5>
+            <h5 class="card-title">Apartamento no Cassino - Rio Grande</h5>
             <div class="info-casa">
               <div class="icone-texto">
-                <img src="/assets/sofa.svg" alt="" class="logo-img-card" srcset=""> 3 quartos
+                <img src="/assets/sofa.svg" alt="" class="logo-img-card" /> 3
+                quartos
               </div>
               <div class="icone-texto">
-                <img src="/assets/banheiro.svg" alt="" class="logo-img-card" srcset=""> 1 Banheiro
+                <img src="/assets/banheiro.svg" alt="" class="logo-img-card" />
+                1 Banheiro
               </div>
               <div class="icone-texto">
-                <img src="/assets/garagem.svg" alt="" class="logo-img-card" srcset=""> 1 Vaga   67.55m²
+                <img src="/assets/garagem.svg" alt="" class="logo-img-card" /> 1
+                Vaga 67.55m²
               </div>
             </div>
-            <p class="card-text">Apartamento com infraestrura completa de lazer no Condomínio. Referente a unidade 404-A no 4º Andar.</p>
+            <p class="card-text">
+              Apartamento com infraestrura completa de lazer no Condomínio.
+              Referente a unidade 404-A no 4º Andar.
+            </p>
             <div class="preco-main-logo">
               RS 400,00
               <div class="main-logo-card">
-                <img src="assets/mainlogo.svg" alt=""> cia da casa
+                <img src="assets/mainlogo.svg" alt="" /> cia da casa
               </div>
             </div>
           </div>
         </div>
         <div class="card">
-          <img src="assets/img02.jpg" class="card-img-top" alt="...">
+          <a href="#exampleModal2" data-bs-toggle="modal">
+            <img
+              src="assets/img02.jpg"
+              loading="lazy"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
           <div class="card-body">
-            <h5 class="card-title">Apartamento no Cassino - Rio Grande </h5>
+            <h5 class="card-title">Apartamento no Cassino - Rio Grande</h5>
             <div class="info-casa">
               <div class="icone-texto">
-                <img src="/assets/sofa.svg" alt="" class="logo-img-card" srcset=""> 3 quartos
+                <img src="/assets/sofa.svg" alt="..." class="logo-img-card" /> 3
+                quartos
               </div>
               <div class="icone-texto">
-                <img src="/assets/banheiro.svg" alt="" class="logo-img-card" srcset=""> 1 Banheiro
+                <img
+                  src="/assets/banheiro.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Banheiro
               </div>
               <div class="icone-texto">
-                <img src="/assets/garagem.svg" alt="" class="logo-img-card" srcset=""> 1 Vaga   67.55m²
+                <img
+                  src="/assets/garagem.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Vaga 67.55m²
               </div>
             </div>
-            <p class="card-text">Apartamento com infraestrura completa de lazer no Condomínio. Referente a unidade 404-A no 4º Andar.</p>
+            <p class="card-text">
+              Apartamento com infraestrura completa de lazer no Condomínio.
+              Referente a unidade 404-A no 4º Andar.
+            </p>
             <div class="preco-main-logo">
               RS 400,00
               <div class="main-logo-card">
-                <img src="assets/mainlogo.svg" alt=""> cia da casa
+                <img src="assets/mainlogo.svg" alt="..." /> cia da casa
               </div>
             </div>
           </div>
         </div>
         <div class="card">
-          <img src="assets/img03.jpg" class="card-img-top" alt="...">
+          <a href="#exampleModal3" data-bs-toggle="modal">
+            <img
+              src="assets/img03.jpg"
+              loading="lazy"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
           <div class="card-body">
-            <h5 class="card-title">Apartamento no Cassino - Rio Grande </h5>
+            <h5 class="card-title">Apartamento no Cassino - Rio Grande</h5>
             <div class="info-casa">
               <div class="icone-texto">
-                <img src="/assets/sofa.svg" alt="" class="logo-img-card" srcset=""> 3 quartos
+                <img src="/assets/sofa.svg" alt="..." class="logo-img-card" /> 3
+                quartos
               </div>
               <div class="icone-texto">
-                <img src="/assets/banheiro.svg" alt="" class="logo-img-card" srcset=""> 1 Banheiro
+                <img
+                  src="/assets/banheiro.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Banheiro
               </div>
               <div class="icone-texto">
-                <img src="/assets/garagem.svg" alt="" class="logo-img-card" srcset=""> 1 Vaga   67.55m²
+                <img
+                  src="/assets/garagem.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Vaga 67.55m²
               </div>
             </div>
-            <p class="card-text">Apartamento com infraestrura completa de lazer no Condomínio. Referente a unidade 404-A no 4º Andar.</p>
+            <p class="card-text">
+              Apartamento com infraestrura completa de lazer no Condomínio.
+              Referente a unidade 404-A no 4º Andar.
+            </p>
             <div class="preco-main-logo">
               RS 400,00
               <div class="main-logo-card">
-                <img src="assets/mainlogo.svg" alt=""> cia da casa
+                <img src="assets/mainlogo.svg" alt="..." /> cia da casa
               </div>
             </div>
           </div>
         </div>
         <div class="card">
-          <img src="assets/img03.jpg" class="card-img-top" alt="...">
+          <a href="#exampleModal3" data-bs-toggle="modal">
+            <img
+              src="assets/img03.jpg"
+              loading="lazy"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
           <div class="card-body">
-            <h5 class="card-title">Apartamento no Cassino - Rio Grande </h5>
+            <h5 class="card-title">Apartamento no Cassino - Rio Grande</h5>
             <div class="info-casa">
               <div class="icone-texto">
-                <img src="/assets/sofa.svg" alt="" class="logo-img-card" srcset=""> 3 quartos
+                <img src="/assets/sofa.svg" alt="..." class="logo-img-card" /> 3
+                quartos
               </div>
               <div class="icone-texto">
-                <img src="/assets/banheiro.svg" alt="" class="logo-img-card" srcset=""> 1 Banheiro
+                <img
+                  src="/assets/banheiro.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Banheiro
               </div>
               <div class="icone-texto">
-                <img src="/assets/garagem.svg" alt="" class="logo-img-card" srcset=""> 1 Vaga   67.55m²
+                <img
+                  src="/assets/garagem.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Vaga 67.55m²
               </div>
             </div>
-            <p class="card-text">Apartamento com infraestrura completa de lazer no Condomínio. Referente a unidade 404-A no 4º Andar.</p>
+            <p class="card-text">
+              Apartamento com infraestrura completa de lazer no Condomínio.
+              Referente a unidade 404-A no 4º Andar.
+            </p>
             <div class="preco-main-logo">
               RS 400,00
               <div class="main-logo-card">
-                <img src="assets/mainlogo.svg" alt=""> cia da casa
+                <img src="assets/mainlogo.svg" alt="..." /> cia da casa
               </div>
             </div>
           </div>
         </div>
-      <div class="card">
-        <img src="assets/img02.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Apartamento no Cassino - Rio Grande </h5>
-          <div class="info-casa">
-            <div class="icone-texto">
-              <img src="/assets/sofa.svg" alt="" class="logo-img-card" srcset=""> 3 quartos
+        <div class="card">
+          <a href="#exampleModal2" data-bs-toggle="modal">
+            <img
+              src="assets/img02.jpg"
+              loading="lazy"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Apartamento no Cassino - Rio Grande</h5>
+            <div class="info-casa">
+              <div class="icone-texto">
+                <img src="/assets/sofa.svg" alt="..." class="logo-img-card" /> 3
+                quartos
+              </div>
+              <div class="icone-texto">
+                <img
+                  src="/assets/banheiro.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Banheiro
+              </div>
+              <div class="icone-texto">
+                <img
+                  src="/assets/garagem.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Vaga 67.55m²
+              </div>
             </div>
-            <div class="icone-texto">
-              <img src="/assets/banheiro.svg" alt="" class="logo-img-card" srcset=""> 1 Banheiro
-            </div>
-            <div class="icone-texto">
-              <img src="/assets/garagem.svg" alt="" class="logo-img-card" srcset=""> 1 Vaga   67.55m²
+            <p class="card-text">
+              Apartamento com infraestrura completa de lazer no Condomínio.
+              Referente a unidade 404-A no 4º Andar.
+            </p>
+            <div class="preco-main-logo">
+              RS 400,00
+              <div class="main-logo-card">
+                <img src="assets/mainlogo.svg" alt="..." /> cia da casa
+              </div>
             </div>
           </div>
-          <p class="card-text">Apartamento com infraestrura completa de lazer no Condomínio. Referente a unidade 404-A no 4º Andar.</p>
-          <div class="preco-main-logo">
-            RS 400,00
-            <div class="main-logo-card">
-              <img src="assets/mainlogo.svg" alt=""> cia da casa
+        </div>
+        <div class="card">
+          <a href="#exampleModal1" data-bs-toggle="modal">
+            <img
+              src="assets/img01.jpg"
+              loading="lazy"
+              class="card-img-top"
+              alt="..."
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Apartamento no Cassino - Rio Grande</h5>
+            <div class="info-casa">
+              <div class="icone-texto">
+                <img src="/assets/sofa.svg" alt="..." class="logo-img-card" /> 3
+                quartos
+              </div>
+              <div class="icone-texto">
+                <img
+                  src="/assets/banheiro.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Banheiro
+              </div>
+              <div class="icone-texto">
+                <img
+                  src="/assets/garagem.svg"
+                  alt="..."
+                  class="logo-img-card"
+                />
+                1 Vaga 67.55m²
+              </div>
+            </div>
+            <p class="card-text">
+              Apartamento com infraestrura completa de lazer no Condomínio.
+              Referente a unidade 404-A no 4º Andar.
+            </p>
+            <div class="preco-main-logo">
+              RS 400,00
+              <div class="main-logo-card">
+                <img src="assets/mainlogo.svg" alt="..." /> cia da casa
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="card">
-        <img src="assets/img01.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Apartamento no Cassino - Rio Grande </h5>
-          <div class="info-casa">
-            <div class="icone-texto">
-              <img src="/assets/sofa.svg" alt="" class="logo-img-card" srcset=""> 3 quartos
+      <!-- modals cards -->
+      <div class="modal modal-lg" id="exampleModal1" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Apartamento no Cassino - Rio Grande</h5>
             </div>
-            <div class="icone-texto">
-              <img src="/assets/banheiro.svg" alt="" class="logo-img-card" srcset=""> 1 Banheiro
-            </div>
-            <div class="icone-texto">
-              <img src="/assets/garagem.svg" alt="" class="logo-img-card" srcset=""> 1 Vaga   67.55m²
-            </div>
-          </div>
-          <p class="card-text">Apartamento com infraestrura completa de lazer no Condomínio. Referente a unidade 404-A no 4º Andar.</p>
-          <div class="preco-main-logo">
-            RS 400,00
-            <div class="main-logo-card">
-              <img src="assets/mainlogo.svg" alt=""> cia da casa
+            <div class="modal-body">
+                <img src="./assets/img01.jpg" alt="..." class="w-100">
             </div>
           </div>
         </div>
       </div>
+      <div class="modal modal-lg" id="exampleModal2" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Apartamento no Cassino - Rio Grande</h5>
+            </div>
+            <div class="modal-body">
+                <img src="./assets/img02.jpg" alt="..." class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal modal-lg" id="exampleModal3" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Apartamento no Cassino - Rio Grande</h5>
+            </div>
+            <div class="modal-body">
+                <img src="./assets/img03.jpg" alt="..." class="w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contac us section -->
+      <div id="contactUs" class="container-sm" style="margin-top: 50px">
+        <h1>Entre em contato com nossos consultores</h1>
+        <div class="container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Região</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John Doe</td>
+                <td>johndoe@example.com</td>
+                <td>(123) 456-7890</td>
+                <td>Região A</td>
+              </tr>
+              <tr>
+                <td>Jane Smith</td>
+                <td>janesmith@example.com</td>
+                <td>(987) 654-3210</td>
+                <td>Região B</td>
+              </tr>
+              <tr>
+                <td>Mike Johnson</td>
+                <td>mikejohnson@example.com</td>
+                <td>(555) 123-4567</td>
+                <td>Região C</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"
+      ></script>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
+  </body>
 </html>
