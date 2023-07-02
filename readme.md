@@ -37,3 +37,6 @@ alunos devem enviar no SIGAA o endereço do repositório e o
 endereço do site na Internet.Também informe o endereço da página
 minificada.
 
+## links
+- pagina minificada : https://fabianomendonca.github.io/tabalho-de-desing-de-interfaces-3/minify-index.html
+- pagina normal : https://fabianomendonca.github.io/tabalho-de-desing-de-interfaces-3/
