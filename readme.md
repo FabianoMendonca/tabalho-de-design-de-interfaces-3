@@ -39,4 +39,4 @@ minificada.
 
 ## links
 - pagina minificada : https://fabianomendonca.github.io/tabalho-de-desing-de-interfaces-3/minify-index.html
-- pagina normal : https://fabianomendonca.github.io/tabalho-de-desing-de-interfaces-3/
+- pagina normal : https://fabianomendonca.github.io/tabalho-de-design-de-interfaces-3/
